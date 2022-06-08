@@ -1,5 +1,5 @@
 {% set name = "fido2" %}
-{% set version = "0.9.3" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b45e89a6109cfcb7f1bb513776aa2d6408e95c4822f83a253918b944083466ec
+  sha256: 2509a4958b666d747fd5754dfa9357da2d81b52edc0ecff75b68cea939154c02
 
 build:
   number: 0
@@ -17,10 +17,11 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - poetry-core
+    - python >=3.7
   run:
-    - python >=3.6
-    - six
+    - python >=3.7
+    - cryptography
 
 test:
   imports:
