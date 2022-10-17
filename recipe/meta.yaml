@@ -1,5 +1,5 @@
 {% set name = "fido2" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2509a4958b666d747fd5754dfa9357da2d81b52edc0ecff75b68cea939154c02
+  sha256: 2b4b4e620c2100442c20678e0e951ad6d1efb3ba5ca8ebb720c4c8d543293674
 
 build:
   number: 0
