@@ -1,11 +1,11 @@
-About fido2
-===========
+About fido2-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fido2-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/fido2/
 
 Package license: BSD-2-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fido2-feedstock/blob/main/LICENSE.txt)
 
 Summary: Fido2, functionality for communicating with a FIDO device over USB as well as verifying attestation and assertion signatures.
 
