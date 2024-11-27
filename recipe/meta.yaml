@@ -18,9 +18,9 @@ requirements:
   host:
     - pip
     - poetry-core
-    - python >=3.7
+    - python {{ python_min }}
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - cryptography
 
 test:
