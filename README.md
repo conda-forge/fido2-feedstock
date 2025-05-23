@@ -5,9 +5,11 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fido2-feedstock
 
 Home: https://pypi.org/project/fido2/
 
-Package license: BSD-2-Clause
+Package license: Apache-2.0 AND BSD-2-Clause AND MPL-2.0
 
 Summary: Fido2, functionality for communicating with a FIDO device over USB as well as verifying attestation and assertion signatures.
+
+FIDO2/WebAuthn library for implementing clients and servers.
 
 Current build status
 ====================
