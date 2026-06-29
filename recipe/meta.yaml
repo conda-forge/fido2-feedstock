@@ -1,5 +1,5 @@
 {% set name = "fido2" %}
-{% set version = "2.2.0" %}
+{% set version = "2.2.1" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/fido2-{{ version }}.tar.gz
-  sha256: 0d8122e690096ad82afde42ac9d6433a4eeffda64084f36341ea02546b181dd1
+  sha256: 85787428a94c3f8eaf72f0ff30afba983b559a1b1b795c93318c81b4ad4062c4
 
 build:
   noarch: python
@@ -22,7 +22,8 @@ requirements:
     - pip
   run:
     - python >={{ python_min }},<4.0
-    - cryptography >=2.6,!=35,<49
+    - cryptography >=2.6,!=35,<52
+    # - pyscard <3,>=1.9
     # - pyscard <3,>=1.9
     # - pyscard <3,>=1.9
     # - pyscard <3,>=1.9
